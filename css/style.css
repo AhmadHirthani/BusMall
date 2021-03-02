@@ -1,0 +1,66 @@
+body{
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+    background-color: cadetblue;
+}
+header h2{
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-clip: unset;
+    background: linear-gradient(to left, rgb(146, 144, 24), rgb(30, 2, 63));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+     width: 400px;
+}
+nav li{
+    display: inline;
+    margin-right: 15%;
+    text-decoration: none;
+}
+nav li a {
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 800;
+    background: linear-gradient(to left,rgb(145, 19, 103),rgb(221, 73, 36));
+    background-clip: initial;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+nav{
+    margin-bottom: 25px;
+    }
+    #allproducts img{
+        float: left;
+        width: 31%;
+        /* height: calc(width); */
+        height: 471px;
+        margin: 5px 1%;
+    }
+    allproducts{
+        background-color: blueviolet;
+        width: 100%;
+        overflow: auto;
+    }
+    button {
+        background-color: rgba(0, 224, 253, 0.904);
+        font-family: 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        border-color: maroon;
+        color: fuchsia;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin-left: 15px 10px;
+        cursor: pointer;
+    }
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: mediumblue;
+        color: #eee;
+    }
